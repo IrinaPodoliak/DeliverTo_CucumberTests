@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05529d70-2c98-4744-b53c-8e0276007618" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="05529d70-2c98-4744-b53c-8e0276007618" name="Changes" comment="Add basic project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepdefinitions/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepdefinitions/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepdefinitions/DeliverToPopupSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepdefinitions/DeliverToPopupSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepdefinitions/SelectedCategorySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepdefinitions/SelectedCategorySteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepdefinitions/SelectedElementSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepdefinitions/SelectedElementSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/browser.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,8 +226,8 @@
         <item itemvalue="Cucumber Java.Scenario: Verify the country is changed in chosen element after changing in Deliver To module" />
         <item itemvalue="Cucumber Java.Scenario: Verify is Poland present in the list of delivery countries" />
         <item itemvalue="Cucumber Java.Scenario: Change the Delivery Code (1)" />
-        <item itemvalue="Cucumber Java.Feature: AmazonTest (2)" />
         <item itemvalue="Cucumber Java.Feature: AmazonTest" />
+        <item itemvalue="Cucumber Java.Feature: AmazonTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -240,6 +240,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662218032621</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add basic progect">
+      <created>1662233699829</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662233699829</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,5 +260,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add basic progect" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add basic progect" />
   </component>
 </project>

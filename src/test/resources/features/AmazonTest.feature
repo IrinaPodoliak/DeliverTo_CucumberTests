@@ -16,7 +16,7 @@ Feature: Test scenario for Amazon
 
     Then User see "Poland" in the list of countries
 
-  Scenario: Verify the country is changed in chosen element after changing in Deliver To module
+  Scenario: Verify the country is changed in chosen element after changing in Deliver To Module
 
     Given User open "Deliver To Popup Module"
 

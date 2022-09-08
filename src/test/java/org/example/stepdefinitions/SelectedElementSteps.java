@@ -1,7 +1,6 @@
 package org.example.stepdefinitions;
 
 import io.cucumber.java.en.Then;
-import org.example.pageobject.modules.DeliverToPopupModule;
 import org.example.pageobject.pages.SelectedElementPage;
 import org.testng.Assert;
 

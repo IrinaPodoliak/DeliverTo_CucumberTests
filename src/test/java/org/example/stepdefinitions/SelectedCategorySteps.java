@@ -1,7 +1,6 @@
 package org.example.stepdefinitions;
 
 import io.cucumber.java.en.And;
-import org.example.pageobject.modules.DeliverToPopupModule;
 import org.example.pageobject.pages.SelectedCategoryPage;
 import org.example.pageobject.pages.SelectedElementPage;
 
