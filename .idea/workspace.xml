@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05529d70-2c98-4744-b53c-8e0276007618" name="Changes" comment="Add basic project">
+    <list default="true" id="05529d70-2c98-4744-b53c-8e0276007618" name="Changes" comment="Add cucumber project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepdefinitions/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepdefinitions/BaseSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepdefinitions/DeliverToPopupSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepdefinitions/DeliverToPopupSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepdefinitions/SelectedCategorySteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepdefinitions/SelectedCategorySteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/stepdefinitions/SelectedElementSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/stepdefinitions/SelectedElementSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/browser.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pageobject/modules/DeliverToPopupModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pageobject/modules/DeliverToPopupModule.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Verify the country is changed in chosen element after changing in Deliver To module">
+  <component name="RunManager" selected="Cucumber Java.Feature: AmazonTest">
     <configuration name="Feature: AmazonTest (2)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="C:\Users\stass\IdeaProjects\DeliverTo_CucumberTests\src\test\resources\features\AmazonTest.feature" />
@@ -223,10 +218,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Verify the country is changed in chosen element after changing in Deliver To module" />
-        <item itemvalue="Cucumber Java.Scenario: Verify is Poland present in the list of delivery countries" />
-        <item itemvalue="Cucumber Java.Scenario: Change the Delivery Code (1)" />
         <item itemvalue="Cucumber Java.Feature: AmazonTest" />
+        <item itemvalue="Cucumber Java.Scenario: Verify is Poland present in the list of delivery countries" />
+        <item itemvalue="Cucumber Java.Scenario: Verify the country is changed in chosen element after changing in Deliver To module" />
+        <item itemvalue="Cucumber Java.Scenario: Change the Delivery Code (1)" />
         <item itemvalue="Cucumber Java.Feature: AmazonTest (2)" />
       </list>
     </recent_temporary>
@@ -247,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662233699829</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add cucumber project">
+      <created>1662642223198</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662642223198</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +265,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add basic progect" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add basic progect" />
+    <MESSAGE value="Add cucumber project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add cucumber project" />
   </component>
 </project>

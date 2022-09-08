@@ -11,8 +11,7 @@ import org.openqa.selenium.By;
 import java.time.Duration;
 import java.util.List;
 
-import static com.codeborne.selenide.Condition.exist;
-import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
@@ -25,7 +24,7 @@ public class DeliverToPopupModule extends BasePage {
     private ElementsCollection listOfCountries = $$(By.className("a-dropdown-link"));
 
     public List<String> getListOfCountries() {
-        this.popupListOfCountriesDropdown.should(exist, Duration.ofSeconds(10)).hover().click();
+        this.popupListOfCountriesDropdown.should(exist).shouldBe(interactable).hover().click();
         Selenide.sleep(3000);
         return listOfCountries.texts();
     }
@@ -40,7 +39,7 @@ public class DeliverToPopupModule extends BasePage {
     }
 
     public HomePage selectCountry(String country) {
-        this.popupListOfCountriesDropdown.shouldBe(visible).hover().click();
+        this.popupListOfCountriesDropdown.should(exist).shouldBe(interactable).hover().click();
         this.listOfCountries.findBy(Condition.text(country)).shouldBe(visible).click();
         this.doneButton.should(exist, Duration.ofSeconds(10)).shouldBe(visible).click();
         return new HomePage();
